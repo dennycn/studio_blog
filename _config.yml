@@ -1,0 +1,84 @@
+markdown: redcarpet
+#pygments: true
+highlighter: pygments
+
+# PAGINATION
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
+
+safe: false
+
+#Site config
+title: Keefe Wu
+description: Just another Jekyll theme design and code by Keefe Wu.
+keywords: Jekyll Theme
+url: http://dennycn.github.io
+feed: /atom.xml
+favicon: http://img.tongji.linezing.com/3488260/tongji.gif
+
+#Nav config
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 分类目录
+    url: /categories.html
+  - text: 项目归档
+    url: /archives.html
+  - text: 团队介绍
+    url: /contact.html
+  - text: 团队链接
+    url: /links.html
+
+#Author config
+author:
+    name: Keefe Wu
+    email: wuqifu@gmail.com
+    imageLink: /images/studio.jpg
+    simpleIntro: This is Keefe. Coding for dream, fun, freedom！
+    detailIntro:
+      <p> <img src='/images/Keefe.JPG' width=400 height=358 align=left/>Keefe Wu，伪Geek真愤青！</p>
+
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+  - class: icon-rss
+    url: /atom.xml
+  - class: icon-weibo
+    url: http://weibo.com/dennycn
+  - class: icon-github-alt
+    url: http://github.com/dennycn
+  - class: icon-twitter
+    url: http://twitter.com
+  - class: icon-google-plus
+    url: http://google.com
+
+#Links
+customLinks:
+  - item:
+    - text: MY Github
+      url: https://github.com/dennycn
+    - text: Leave Message
+      url: /contact.html
+    message: Friends
+  - item:
+    - text: Font Awesome
+      url: http://fortawesome.github.io/Font-Awesome/
+    - text: Google Font
+      url: http://www.google.com/fonts/
+    - text: jQuery
+      url: http://jquery.com/
+    message: 其他相关链接
+
+#googleAnaly, your id link UA-12345678-X
+googleAnaly:
+  config: true
+  id: UA-12345678-X
+
+#comment config
+disqus:
+  config: false
+  id: piznblog
+
+duoshuo:
+  config: true
+  id: keefe
